@@ -6,7 +6,7 @@ const conexao = mysql.createPool({
     host: '127.0.0.1', 
     user: 'root',
     password: '',
-    database: 'controle_pontos',
+    database: 'controle_ponto',
     port: 3306,
     waitForConnections: true,
     connectionLimit: 10,

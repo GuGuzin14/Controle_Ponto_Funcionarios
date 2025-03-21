@@ -12,10 +12,10 @@ const port = 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use('/api/funcionarios', funcionariosRouter);
-app.use('/api/turnos', turnosRouter);
-app.use('/api/pontos', pontosRouter);
-app.use('/api/cargos', cargosRouter);
+app.use('/api', funcionariosRouter);
+app.use('/api', turnosRouter);
+app.use('/api', pontosRouter);
+app.use('/api', cargosRouter);
 
 app.listen(port, () => {
     console.log('Servidor Iniciado em http://localhost:' + port);
