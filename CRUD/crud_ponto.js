@@ -1,4 +1,4 @@
-const conexao = require('../db');
+const conexao = require('./db');
 const prompt = require('prompt-sync')();
 
 async function registrarPonto() {
